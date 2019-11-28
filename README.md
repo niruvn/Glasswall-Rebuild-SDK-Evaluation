@@ -1,5 +1,5 @@
 # SDK1.5 Evaluation
-Evaluation version of the old Glasswall File Trust SDK expires 02/01/2020
+Evaluation version of the Glasswall Core1.5 File Trust SDK expires 02/01/2020
 
 This project can be used to build a CentOS7 image, containing version 1.5 of the Glasswall core engine. The engine is configured to run files in protect modes. File are processed from a mounted directory and regenerated into a separate output directory.
 Begin by downloading the files to a clean workspace. Check that the dockerfile is in the same directory as the release package (The lib folder containing the Core library).
