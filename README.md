@@ -20,3 +20,8 @@ Now let’s mount the input and output directories and run a container of our im
 docker run -it -v C:\data\input:/input -v C:\data\output:/output *imageName*:0.1
 
 This command will build the container and mount "C:\data\input" to "/input" on the container and "C:\data\output" to "/output" and then immediately process the contents of "/input" and place the regenerated files and analysis reports in "/output".
+
+A prebuilt Docker image is availible from: https://hub.docker.com/repository/docker/glasswallsolutions/evaluationsdk
+
+:1 is Glasswall 1.5 
+:2 is Glasswall 2.0
