@@ -1,7 +1,7 @@
-# SDK1.5 Evaluation
-Evaluation version of the Glasswall Core1.5 File Trust SDK expires 20/02/2020
+# SDK 1.X Evaluation
+Evaluation version of the Glasswall Core1.X File Trust SDK expires 20/02/2020
 
-This project can be used to build a CentOS7 image, containing version 1.5 of the Glasswall core engine. The engine is configured to run files in protect modes. File are processed from a mounted directory and regenerated into a separate output directory.
+This project can be used to build a CentOS7 image, containing version 1.X of the Glasswall core engine. The engine is configured to run files in protect modes. File are processed from a mounted directory and regenerated into a separate output directory.
 Begin by downloading the files to a clean workspace. Check that the dockerfile is in the same directory as the release package (The lib folder containing the Core library).
 
 If you haven’t used docker before you will need to install it now. You will need to share the drive you want to input and output data from with your instance of docker. To do this right click docker in the system tray. Click settings. Click Shared Drives and share the appropriate drive. Click Apply.
@@ -23,5 +23,5 @@ This command will build the container and mount "C:\data\input" to "/input" on t
 
 A prebuilt Docker image is availible from: https://hub.docker.com/repository/docker/glasswallsolutions/evaluationsdk
 
-:1 is Glasswall 1.5 
-:2 is Glasswall 2.0
+:1 is Glasswall 1.X 
+:2 is Glasswall 2.X
