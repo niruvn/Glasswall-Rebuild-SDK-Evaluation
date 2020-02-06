@@ -19,6 +19,7 @@ Example
 Run the following command or -h for help.
 
 Linux
+>> export LD_LIBRARY_PATH="./"
 >> python TestApplication.py -i ./test_data -o ./test_app_output -c config.xml -l libglasswall.archive.manager.so
 
 Windows
