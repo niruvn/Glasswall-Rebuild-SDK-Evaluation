@@ -1,6 +1,6 @@
 # SDK 1.X Evaluation
 
-Evaluation version of the Glasswall File Trust SDK 1.x expires 20/02/2020
+Evaluation version of the Glasswall File Trust SDK 1.x expires 04/03/2020
 
 ## Library
 
