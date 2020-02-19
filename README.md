@@ -10,7 +10,7 @@ The SDK 1.x library (.so) file can be located here: https://github.com/filetrust
 
 For the SDK 1.x documentation [Click Here](https://github.com/filetrust/SDK-Evaluation-Version-1.x/blob/master/sdk.documentation.pdf)
 
-### Getting Started
+## Getting Started
 
 #### Docker
 This is built on a CentOS7 image, containing version 1.X of the Glasswall core engine. The engine is configured to run files in protect modes. File are processed from a mounted directory and regenerated into a separate output directory.
