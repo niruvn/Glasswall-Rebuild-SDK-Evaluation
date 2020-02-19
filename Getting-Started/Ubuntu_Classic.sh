@@ -46,11 +46,9 @@ export PATH=$PATH:/glasswall/Lib
 export PATH=$PATH:/usr/lib
 
 ## add GlasswallProtect script and configs to Desktop ##
-cd /glasswall/CLI
-cp Ubuntu-Protect.sh /home/glasswall/Desktop/GlasswallProtect.sh
-cd Configs
-cp config.ini /home/glasswall/Desktop/config.ini
-cp config.xml /home/glasswall/Desktop/config.xml
+cp /glasswall/CLI/Ubuntu-Protect.sh /home/glasswall/Desktop/GlasswallProtect.sh
+cp /glasswall/CLI/Configs/config.ini /home/glasswall/Desktop/config.ini
+cp /glasswall/CLI/Configs/config.xml /home/glasswall/Desktop/config.xml
 
 ## rm -r /home/glasswall/Desktop/product-glasswall-kiosk
 
