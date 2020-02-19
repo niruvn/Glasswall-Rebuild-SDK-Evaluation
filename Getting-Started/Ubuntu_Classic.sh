@@ -45,7 +45,7 @@ export PATH=$PATH:/glasswall
 export PATH=$PATH:/glasswall/Lib
 export PATH=$PATH:/usr/lib
 
-## add GlasswallProtect script to Desktop ##
+## add GlasswallProtect script and configs to Desktop ##
 cd /glasswall/CLI
 cp Ubuntu-Protect.sh /home/glasswall/Desktop/GlasswallProtect.sh
 cd Configs
