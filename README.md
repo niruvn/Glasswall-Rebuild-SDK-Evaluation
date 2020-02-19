@@ -10,17 +10,17 @@ The SDK 1.x library (.so) file can be located here: https://github.com/filetrust
 
 For the SDK 1.x documentation [Click Here](https://github.com/filetrust/SDK-Evaluation-Version-1.x/blob/master/sdk.documentation.pdf)
 
-## Getting Started
+### Getting Started
 
-# Docker
+#### Docker
 This is built on a CentOS7 image, containing version 1.X of the Glasswall core engine. The engine is configured to run files in protect modes. File are processed from a mounted directory and regenerated into a separate output directory.
 Begin by downloading the files to a clean workspace. Check that the dockerfile is in the same directory as the release package (The lib folder containing the Core library).
 
-# Ubuntu
+#### Ubuntu
 
 This is a shell script for getting the Glasswall SDK 1.X running on Ubuntu, configured to run files in Protect modes.
 
-### Windows
+#### Windows
 
 If you haven’t used docker before you will need to install it now. You will need to share the drive you want to input and output data from with your instance of docker. To do this right click docker in the system tray. Click 'settings'. Click 'Shared Drives' and share the appropriate drive. Click 'Apply'.
 
