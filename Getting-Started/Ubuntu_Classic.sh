@@ -36,9 +36,8 @@ ldconfig /usr/lib
 
 ## create desktop folders ##
 mkdir -p /home/glasswall/Desktop/
-cd /home/glasswall/Desktop
-mkdir input/
-mkdir output/
+mkdir /home/glasswall/Desktopinput/
+mkdir /home/glasswall/Desktopoutput/
 
 ## add $path variables ##
 export PATH=$PATH:/glasswall
