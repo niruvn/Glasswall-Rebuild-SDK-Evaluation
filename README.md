@@ -4,16 +4,21 @@ Evaluation version of the Glasswall File Trust SDK 1.x expires 04/03/2020
 
 ## Library
 
-The SDK 1.x library (.so) file can be located here: https://github.com/filetrust/SDK-Evaluation-Version-1.x/blob/master/Lib.zip
+The SDK 1.x library (.so) file can be located here: https://github.com/filetrust/SDK-Evaluation-Version-1.x/blob/master/Lib/libglasswall.classic.so
 
 ## SDK Documentation
 
 For the SDK 1.x documentation [Click Here](https://github.com/filetrust/SDK-Evaluation-Version-1.x/blob/master/sdk.documentation.pdf)
 
-## Docker
+## Getting Started
 
+# Docker
 This is built on a CentOS7 image, containing version 1.X of the Glasswall core engine. The engine is configured to run files in protect modes. File are processed from a mounted directory and regenerated into a separate output directory.
 Begin by downloading the files to a clean workspace. Check that the dockerfile is in the same directory as the release package (The lib folder containing the Core library).
+
+# Ubuntu
+
+This is a shell script for getting the Glasswall SDK 1.X running on Ubuntu, configured to run files in Protect modes.
 
 ### Windows
 
