@@ -1,3 +1,5 @@
+#Glasswall Static File Analyzer
+
 The Glasswall Static File Analyzer is an application designed to process folders of files through the Glasswall Rebuild engine.  
   
 The application requires that the Glasswall library be present in the same folder as the application and that it is named glasswall.classic.dll, you can obtain the library [From Here](https://github.com/filetrust/Glasswall-Rebuild-SDK-Evaluation/blob/master/Windows/Library/glasswall.classic.dll)  
