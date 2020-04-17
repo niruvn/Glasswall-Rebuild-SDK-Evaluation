@@ -6,9 +6,11 @@ There is a shell script for the Glasswall Rebuild SDK running on Ubuntu, configu
 
 ### Windows
 
-We have the Glasswall Static File Analyzer, the simplest way to run Glasswall Rebuild on Windows.
+We have the Glasswall Static File Analyzer to run the Glasswall Rebuild engine on Windows simply.
 
-To run this you need to download the Glasswall Static File Analyzer, and the [Glasswall Rebuild Library](https://github.com/filetrust/Glasswall-Rebuild-SDK-Evaluation/blob/master/Windows/Library/glasswall.classic.dll), to the same folder. Running the Glasswall Static File Analyzer will create 2 config files, please do not remove or modify these files as these are set by the processing mode in the application itself
+To run this you need to download the [Glasswall Static File Analyzer](https://github.com/filetrust/Glasswall-Rebuild-SDK-Evaluation/blob/master/Windows/Glasswall%20Static%20File%20Analyzer/Glasswall%20Static%20File%20Analyzer.exe), and the [Glasswall Rebuild Library](https://github.com/filetrust/Glasswall-Rebuild-SDK-Evaluation/blob/master/Windows/Library/glasswall.classic.dll), to the same folder. Running the Glasswall Static File Analyzer will create 2 config files, please do not remove or modify these files as these are set by the processing mode in the application itself
+
+You can also download the CLI Tool for use within Command Prompt
 
 ### Docker
 This is built on a CentOS7 image, containing the Glasswall Rebuild engine. The engine is configured to run files in protect modes. File are processed from a mounted directory and regenerated into a separate output directory.
