@@ -31,7 +31,7 @@ chmod -R 777 /glasswall
 rm -r /tmp/glasswall
 
 ## copy SDK into folders ##
-ln -s /glasswall/Lib/libglasswall.classic.so /usr/lib/libglasswall.classic.so && \
+ln -s /glasswall/Linux/Library/libglasswall.classic.so /usr/lib/libglasswall.classic.so && \
 ldconfig /usr/lib
 
 ## create desktop folders ##
