@@ -2,7 +2,13 @@
 
 ### Ubuntu
 
-There is a shell script for getting the Glasswall Rebuild SDK running on Ubuntu, configured to run files in Protect modes, please [Click Here](https://github.com/filetrust/Glasswall-Rebuild-SDK-Evaluation/blob/master/Getting-Started/Ubuntu_Classic.sh)
+There is a shell script for the Glasswall Rebuild SDK running on Ubuntu, configured to run files in Protect modes, please [Click Here](https://github.com/filetrust/Glasswall-Rebuild-SDK-Evaluation/blob/master/Getting-Started/Ubuntu_Classic.sh)
+
+### Windows
+
+We have the Glasswall Static File Analyzer, the simplest way to run Glasswall Rebuild on Windows.
+
+To run this you need to download the Glasswall Static File Analyzer, and the [Glasswall Rebuild Library](https://github.com/filetrust/Glasswall-Rebuild-SDK-Evaluation/blob/master/Windows/Library/glasswall.classic.dll), to the same folder. Running the Glasswall Static File Analyzer will create 2 config files, please do not remove or modify these files as these are set by the processing mode in the application itself
 
 ### Docker
 This is built on a CentOS7 image, containing the Glasswall Rebuild engine. The engine is configured to run files in protect modes. File are processed from a mounted directory and regenerated into a separate output directory.
