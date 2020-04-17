@@ -1,4 +1,4 @@
-#Glasswall Static File Analyzer
+# Glasswall Static File Analyzer
 
 The Glasswall Static File Analyzer is an application designed to process folders of files through the Glasswall Rebuild engine.  
   
