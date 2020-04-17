@@ -4,7 +4,7 @@ Evaluation version of the Glasswall Rebuild SDK expires 14/05/2020
 
 ## Library
 
-The Rebuild SDK library (.so) file can be located here: https://github.com/filetrust/Glasswall-Rebuild-SDK-Evaluation/blob/master/Lib/libglasswall.classic.so
+The Rebuild SDK library (.so) file can be located [Here](https://github.com/filetrust/Glasswall-Rebuild-SDK-Evaluation/blob/master/Lib/libglasswall.classic.so)
 
 ## SDK Documentation
 
@@ -13,12 +13,12 @@ For the Rebuild SDK documentation [Click Here](https://github.com/filetrust/Glas
 ## Getting Started
 
 #### Docker
-This is built on a CentOS7 image, containing version 1.X of the Glasswall core engine. The engine is configured to run files in protect modes. File are processed from a mounted directory and regenerated into a separate output directory.
+This is built on a CentOS7 image, containing the Glasswall Rebuild engine. The engine is configured to run files in protect modes. File are processed from a mounted directory and regenerated into a separate output directory.
 Begin by downloading the files to a clean workspace. Check that the dockerfile is in the same directory as the release package (The lib folder containing the Core library).
 
 #### Ubuntu
 
-This is a shell script for getting the Glasswall SDK 1.X running on Ubuntu, configured to run files in Protect modes.
+There is a shell script for getting the Glasswall Rebuild SDK running on Ubuntu, configured to run files in Protect modes, please [Click Here](https://github.com/filetrust/Glasswall-Rebuild-SDK-Evaluation/blob/master/Getting-Started/Ubuntu_Classic.sh)
 
 #### Windows
 
