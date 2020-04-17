@@ -10,7 +10,7 @@ We have the Glasswall Static File Analyzer to run the Glasswall Rebuild engine o
 
 To run this you need to download the [Glasswall Static File Analyzer](https://github.com/filetrust/Glasswall-Rebuild-SDK-Evaluation/blob/master/Windows/Glasswall%20Static%20File%20Analyzer/Glasswall%20Static%20File%20Analyzer.exe), and the [Glasswall Rebuild Library](https://github.com/filetrust/Glasswall-Rebuild-SDK-Evaluation/blob/master/Windows/Library/glasswall.classic.dll), to the same folder. Running the Glasswall Static File Analyzer will create 2 config files, please do not remove or modify these files as these are set by the processing mode in the application itself
 
-You can also download the CLI Tool for use within Command Prompt
+You can also download the [CLI Tool](https://github.com/filetrust/Glasswall-Rebuild-SDK-Evaluation/blob/master/Windows/CLI/glasswall.classic.cli.exe) for use within Command Prompt
 
 ### Docker
 This is built on a CentOS7 image, containing the Glasswall Rebuild engine. The engine is configured to run files in protect modes. File are processed from a mounted directory and regenerated into a separate output directory.
