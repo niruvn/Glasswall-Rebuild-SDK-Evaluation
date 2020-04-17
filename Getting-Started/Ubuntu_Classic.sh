@@ -19,10 +19,10 @@ mkdir -p /tmp/glasswall/
 cd /tmp/glasswall
 
 ## clone into working directory ##
-git clone https://github.com/filetrust/SDK-Evaluation-Version-1.x.git
+git clone https://github.com/filetrust/Glasswall-Rebuild-SDK-Evaluation.git
 
 ## rename folder ##
-cp -r SDK-Evaluation-Version-1.x/ /glasswall
+cp -r Glasswall-Rebuild-SDK-Evaluation/ /glasswall
 
 ## set permissions ##
 chmod -R 777 /glasswall
@@ -48,8 +48,6 @@ export PATH=$PATH:/usr/lib
 cp /glasswall/CLI/Ubuntu-Protect.sh /home/glasswall/Desktop/GlasswallProtect.sh
 cp /glasswall/CLI/Configs/config.ini /home/glasswall/Desktop/config.ini
 cp /glasswall/CLI/Configs/config.xml /home/glasswall/Desktop/config.xml
-
-## rm -r /home/glasswall/Desktop/product-glasswall-kiosk
 
 chmod -R 777 /glasswall
 

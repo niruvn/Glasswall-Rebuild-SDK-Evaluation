@@ -1,14 +1,14 @@
-# SDK 1.X Evaluation
+# Rebuild SDK Evaluation
 
-Evaluation version of the Glasswall File Trust SDK 1.x expires 10/04/2020
+Evaluation version of the Glasswall Rebuild SDK expires 14/05/2020
 
 ## Library
 
-The SDK 1.x library (.so) file can be located here: https://github.com/filetrust/SDK-Evaluation-Version-1.x/blob/master/Lib/libglasswall.classic.so
+The Rebuild SDK library (.so) file can be located here: https://github.com/filetrust/Glasswall-Rebuild-SDK-Evaluation/blob/master/Lib/libglasswall.classic.so
 
 ## SDK Documentation
 
-For the SDK 1.x documentation [Click Here](https://github.com/filetrust/SDK-Evaluation-Version-1.x/blob/master/sdk.documentation.pdf)
+For the Rebuild SDK documentation [Click Here](https://github.com/filetrust/Glasswall-Rebuild-SDK-Evaluation/blob/master/sdk.documentation.pdf)
 
 ## Getting Started
 
